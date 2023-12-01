@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Actualizar Contacto</title>
+    <link rel="stylesheet" href="../static/js/css/actualizar.css">
+    <script type="text/javascript" src="../static/js/editar.js"></script>
+</head>
+
+<body>
+    <div class="center-content">
+        <h1>Actualizar Contacto</h1>
+
+        <label for="text">Nombre</label>
+        <input type="text" id="nombreInput" class="input" placeholder="Ingrese el Nombre">
+        <label for="text">Correo</label>
+        <input type="email" id="emailInput" class="input" placeholder="Ingrese el Correo">
+        <label for="text">Teléfono</label>
+        <input type="tel" id="telefonoInput" class="input" placeholder="Ingrese el Teléfono">
+        <div class="button-container">
+            <button onclick="putContacto()" class="button">Actualizar</button>
+            <button onclick="cancelar()" class="button">Cancelar</button>
+        </div>
+    </div>
+    <script>
+        function cancelar() {    
+            window.location.href = "/"; 
+        }
+        document.body.onload = cargarContacto();
+    </script>
+</body>
+</html>
