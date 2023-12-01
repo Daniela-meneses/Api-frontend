@@ -4,7 +4,7 @@ function getContacto() {
 
     var request = new XMLHttpRequest();
     //request.open('GET', "http://127.0.0.1:8000/contactos/" + encodeURIComponent(email));
-    request.open('GET', "https://frontend-dany-117af51530bf.herokuapp.com/contactos/" + encodeURIComponent(email));
+    request.open('GET', "https://backend-dany-7bf9e826e847.herokuapp.com/contactos/" + encodeURIComponent(email));
     request.send();
 
     request.onload = (e) => {
@@ -44,7 +44,7 @@ function deleteContacto() {
 
     var request = new XMLHttpRequest();
     //request.open('DELETE', "http://127.0.0.1:8000/contactos/" + encodeURIComponent(email));
-    request.open('DELETE', "https://backendapi-b8813c2df8d9.herokuapp.com/contactos/" + encodeURIComponent(email));
+    request.open('DELETE', "https://backend-dany-7bf9e826e847.herokuapp.com/contactos/" + encodeURIComponent(email));
     request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     request.onload = (e) => {

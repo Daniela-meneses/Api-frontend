@@ -3,7 +3,7 @@ function insertContactPost(nombre, email, telefono) {
 
     var request = new XMLHttpRequest();
     //request.open('POST', 'http://127.0.0.1:8000/contactos');
-    request.open('POST', 'https://frontend-dany-117af51530bf.herokuapp.com/contactos');
+    request.open('POST', 'https://backend-dany-7bf9e826e847.herokuapp.com/contactos');
     request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     const nuevoContacto = {
