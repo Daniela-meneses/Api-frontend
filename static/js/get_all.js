@@ -1,7 +1,7 @@
 function getAll() {
     var request = new XMLHttpRequest();
     //request.open('GET', "http://127.0.0.1:8000/contactos");
-    request.open('GET', "https://frontend-dany-117af51530bf.herokuapp.com/contactos");
+    request.open('GET', "https://backend-dany-7bf9e826e847.herokuapp.com/contactos");
     request.send();
 
     request.onload = (e) => {
@@ -63,7 +63,7 @@ function getAll() {
 function getContactByEmail(email) {
     var request = new XMLHttpRequest();
     //request.open('GET', "http://127.0.0.1:8000/contactos");
-    request.open('GET', "https://frontend-dany-117af51530bf.herokuapp.com/contactos");
+    request.open('GET', "https://backend-dany-7bf9e826e847.herokuapp.com/contactos");
     request.send();
 
     request.onload = function (e) {
