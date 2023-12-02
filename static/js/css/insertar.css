@@ -17,23 +17,23 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background: #006699;
+    background: #9b59b6; /* Morado para el botón */
     color: #FFFFFF;
-    border: 1px solid #006699;
+    border: 1px solid #9b59b6; /* Borde morado para el botón */
     border-radius: 3px;
     text-decoration: none;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
-    margin:0 10px; /* Ajusta el espacio entre el botón y otros elementos */
+    margin: 0 10px; /* Ajusta el espacio entre el botón y otros elementos */
 }
 
 .button:hover {
-    background: #00557F;
+    background: #8e44ad; /* Morado más oscuro al pasar el ratón */
 }
 
 .input {
     padding: 10px;
-    border: 1px solid #006699;
+    border: 1px solid #9b59b6; /* Borde morado para el input */
     border-radius: 3px;
     margin: 10px 0; /* Ajusta el espacio entre el input y otros elementos */
 }
